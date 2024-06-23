@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    
+}
+
+html,body {
+    height:100%;
+    width:100%;
+    background-color: black;
+}
+
+#main {
+    height: 100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.shape1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#square:hover {
+    background-color: brown;
+}
+#circle:hover {
+    background-color: blueviolet;
+}
+#parallelogram:hover {
+    background-color: crimson;
+}
+#diamond:hover {
+    background-color: aqua;
+}
+
+
+#circle {
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+#diamond {
+    rotate: 45deg;
+    height: 150px;
+    width: 150px;
+    margin-top: 40px;
+    translate: 40px;
+    background-color: white;
+}
+#diamond h1 {
+    rotate: -45deg;
+}
+
+#parallelogram {
+    height:150px;
+    width:200px;
+    transform: skew(-40deg);
+    translate: -30px;
+    margin-top: 30px;
+    background-color: white;
+}
+#parallelogram  h1{
+    
+    transform: skew(40deg);
+
+}
+
+#square {
+    margin-right: 20px;
+    background-color: white;
+}
